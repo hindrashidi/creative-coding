@@ -23,9 +23,9 @@ function draw() {
       let a = atan2(dy, dx);
 
       //  added: make the swirl speed respond to mouse X
-      let mouseInfluence = mouseX * 0.001; // 0.001 is a small scale factor
+      let mouseInfluence = mouseX * 0.001; 
 
-      // swirl math
+      // swirl 
       let swirl = a + d * 0.05 + frameCount * 0.05 + mouseInfluence; // changed here
 
       // base value + noise so pixels feel "textured"
